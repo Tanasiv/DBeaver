@@ -1,4 +1,3 @@
----2---
 WITH facebook AS (
 SELECT 
 ad_date, spend, value,
@@ -29,4 +28,5 @@ GROUP BY 1, 2
 HAVING sum(spend) > 0
 ORDER BY 3 DESC
 LIMIT 5
+
 
