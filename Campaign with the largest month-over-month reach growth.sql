@@ -1,4 +1,3 @@
----4---
 WITH facebook AS (
 SELECT 
 ad_date, 
@@ -50,3 +49,4 @@ AND reach_growth > 0
 ORDER BY 2 DESC 
 LIMIT 1
  
+
