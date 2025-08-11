@@ -1,4 +1,3 @@
----1---
 WITH facebook AS (
 SELECT 
 ad_date, 
@@ -36,4 +35,5 @@ MIN(spend) AS min_spend
 FROM facebook_google
 GROUP BY 1, 2 
 ORDER BY 1, 2
+
 
