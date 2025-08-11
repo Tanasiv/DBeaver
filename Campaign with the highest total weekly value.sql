@@ -1,4 +1,3 @@
----3---
 WITH facebook AS (
 SELECT 
 ad_date, 
@@ -33,4 +32,5 @@ WHERE value > 0
 GROUP BY 1, 2
 ORDER BY 3 DESC
 LIMIT 1
+
 
