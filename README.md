@@ -1,2 +1,2 @@
 # DBeaver
-Homework from GoIt courses on DBeaver
+Homework from GoIt courses in DBeaver
